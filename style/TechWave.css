@@ -71,7 +71,21 @@ background: linear-gradient( #9100F8, #FB09B4, #F7E93F);
      margin: 50px 60px 40px 110px;
 
 }
+.container{
+    display: flex;
+    background-image: url(../assets/hero-circle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    justify-content: space-around;
+}
+.container img{
+  width: 100%;
 
+
+
+
+}
 .banner-title{
     text-align: center;
     font-weight: 800;
@@ -173,6 +187,108 @@ background: linear-gradient( #9100F8, #FB09B4, #F7E93F);
      line-height: 24px;
      text-transform: uppercase;
 }
+ /* Techwave style */
+ .techwave-container{
+    align-items: center;
+    justify-items: center;
+    margin-top: 120px;
+
+ }
+ .techwave-title{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 58px;
+      margin-bottom: 40px;
+ }
+ .techwave{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    margin-left: 220px;
+    grid-template-columns: repeat(4, 250px);
+     grid-template-rows: repeat(2, 180px);
+     gap: 30px;
+   
+
+ }
+ .headphone{
+   grid-row: 1 / span 2;
+   padding: 40px;
+   justify-content: center;
+   align-items: flex-start;
+   gap: 16px;
+   border-radius: 40px;
+   background: rgba(53, 17, 101, 0.4);
+   
+
+
+ }
+ .card-title{
+    margin-top: 10px;
+     font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    text-transform: capitalize;
+ }
+ .card-description{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 20px;
+ }
+ .mobaile{
+    grid-column: 2 / span 2 ;
+    background: rgba(53, 17, 101, 0.4);
+    padding: 40px;
+   justify-content: center;
+   align-items: flex-start;
+   gap: 16px;
+   border-radius: 40px;
+
+
+ }
+ .card-title{
+     font-size: 20px;
+     font-weight: 700;
+     text-align: left;
+     text-transform: capitalize;
+     margin-top: 10px;
+ }
+
+
+.global{
+     grid-column: 2 / span 2 ;
+     background: rgba(53, 17, 101, 0.4);
+      padding: 40px;
+     justify-content: center;
+     align-items: flex-start;
+     gap: 16px;
+    border-radius: 40px;
+
+
+}
+
+ .interview{
+    grid-column: 1 / span 2;
+    background: rgba(53, 17, 101, 0.4);
+     padding: 40px;
+     justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+   border-radius: 40px;
+ }
+ .resourse{
+    background: rgba(53, 17, 101, 0.4);
+     padding: 40px;
+   justify-content: center;
+   align-items: flex-start;
+   gap: 16px;
+   border-radius: 40px;
+ }
+
 
 
 
