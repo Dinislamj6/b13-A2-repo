@@ -390,6 +390,39 @@ background: linear-gradient( #9100F8, #FB09B4, #F7E93F);
 
  }
 
+ /* footer section style */
+ footer{
+    background-image: url(../assets/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: contain;
+    background-size: cover;
+ }
+ .fot-title{
+    text-align: center;
+    margin-bottom: 30px;
+ }
+ .footer-section{
+   max-width: 1000px;
+   height: 300px;
+   margin-top: 20px;
+   align-content: center;
+   margin: 0 auto;
+  
+
+
+ }
+ .footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+ }
+ .last-description{
+    text-align: center;
+    margin-top: 30px;
+ }
+
+
 
 
 
@@ -450,6 +483,11 @@ background: linear-gradient( #9100F8, #FB09B4, #F7E93F);
  }
  .host-title{
    text-align: center;
+ }
+ .footer-container{
+    display: flex;
+    flex-direction: row;
+    
  }
 
 
